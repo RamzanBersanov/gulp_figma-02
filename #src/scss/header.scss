@@ -42,7 +42,7 @@ body._lock {
 
 .header__content {
     background-image: url('../images/header-bg.jpg');
-    width: 100%;
+    max-width: none;
     height: 500px;
     background-position: center center;
     background-size: cover;
@@ -53,14 +53,14 @@ body._lock {
 }
 
 .header__box {
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .header__title {
     font-size: 24px;
     width: 310px;
     color: #fff;
-    margin-bottom: 50px;
+    margin: 0 0 50px -40px;
 }
 
 .header__title span {
@@ -71,15 +71,34 @@ body._lock {
     position: relative;
 }
 
+.header__item {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
 .header__item::before {
     position: absolute;
+    left: -40px;
+    transform: translateY(-4px);
     content: '';
-    width: 130px;
-    height: 130px;
-    color: #fff;
-    z-index: 20;
-    padding: 30px;
-    margin-top: 1004px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #00BFF3;
+    border-radius: 50%;
+}
+
+.header__item::after {
+    position: absolute;
+    left: -32px;
+    transform: translateY(-14px);
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
 .btn {
@@ -95,6 +114,8 @@ body._lock {
     font-size: 18px;
     padding: 15px 20px;
     transition: .5s ease;
+    font-weight: 500;
+    font-family: 'Roboto';
 }
 
 .btn:hover {
@@ -109,7 +130,7 @@ body._lock {
 }
 
 .header__btn {
-    margin-top: 40px;
+    margin: 40px 0 0 -40px;
 }
 
 .menu__link {

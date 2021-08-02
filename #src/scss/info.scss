@@ -1,0 +1,40 @@
+.info {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+}
+
+
+.info__content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info__title {
+    width: 310px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.info__item {
+    background-color: #fff;
+    padding: 90px 30px 30px 30px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 70px;
+}
+.info__num {
+    position: absolute;
+    bottom: 243px;
+    left: 243px;
+}
+.info__icon {
+    margin-bottom: 30px;
+}
+.info__text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.info__subtext {
+    width: 230px;
+}
