@@ -1,0 +1,465 @@
+@media (min-width: 767px) {
+    .menu__list {
+        display: flex;
+        align-items: center;
+    }
+    .menu__list > li {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 992px) {
+   .questions__wrapper {
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+   
+    .questions__item {
+        display: block;
+    }
+    .questions__item:last-child {
+        display: block;
+    }
+
+    .questions__adv {
+        width: auto;
+    }
+
+    .questions__img img {
+        margin-right: 0px;
+    }
+
+    .questions__image img, .questions__img img {
+        margin-bottom: 40px;
+    }
+
+    .reviews__img img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+    }
+
+    .reviews__text {
+        width: 400px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .reviews__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .owl-prev {
+        right: 30%;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: -15%; 
+        width: 100%;
+        text-align: center;
+    }
+
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-bottom: -20px;
+    }
+
+    .consultation__img {
+        display: none;
+    }
+
+    .consultation__personal-data {
+        padding-bottom: 50px;
+    }
+
+    .consultation__title {
+        padding: 50px 160px 0;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footer__personal {
+        margin-right: 40px;
+    }
+
+    .footer__icon:first-child {
+        margin-left: 0px;
+    }
+
+    .footer__contact {
+        margin-right: 100px;
+    }
+
+    .footer__content {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .header__works {
+        margin-left: 20px;
+    }
+
+    .header__name {
+        font-size: 55px;
+    }
+
+    .header__images {
+        height: 400px;
+    }
+
+    .header__descr {
+        margin-bottom: 30px;
+    }
+
+    .menu__link {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu__link {
+        font-size: 24px;
+    }
+
+    .header__descr {
+        margin-bottom: 60px;
+    }
+
+    .header__title {
+        margin: 25px 0 15px 0;
+    }
+
+    .header__images {
+        display: none;
+    }
+    .header__text {
+        width: 400px;
+    }
+
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all .3s ease 0s;
+        background-color: #fff;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after {
+        content: '';
+    }
+
+    .menu__icon::before {
+        top: 0;
+    }
+
+    .menu__icon::after {
+        bottom: 0;
+    }
+
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .menu__icon._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+
+    .menu__icon._active::before{
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .menu__icon._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+    
+    .menu__body {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 100px 30px 30px 30px;
+        transition: left 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .menu__body._active {
+        left: 0;
+    }
+
+    .menu__body::before {
+        content: '';
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 70px;
+        background-color: #aad8f8;
+        z-index: 2;
+    }
+
+    .menu__list > li {
+        flex-wrap: wrap;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .menu__list > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu__link {
+        font-size: 24px;
+    }
+
+    .header__container {
+    justify-content: flex-end;
+}
+
+.subscribe__content {
+    flex-direction: column;
+}
+
+.subscribe__text {
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.questions__content {
+    width: 440px;
+    margin: 0 auto;
+}
+
+.questions__img img{
+    width: 440px;
+    height: 410px;
+}
+
+.questions__image img{
+    width: 440px;
+    height: 410px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.reviews__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reviews__img img {
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-bottom: 0px;
+}
+
+
+
+.consultation__title {
+    padding: 50px 110px 0;
+}
+
+.footer__content {
+    flex-direction: column;
+}
+
+.footer {
+    padding: 50px;
+}
+
+.footer__personal {
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.footer__contact {
+    margin-right: 0;
+}
+
+.footer__icon {
+    margin-left: 90px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .header__content {
+        margin: 60px 0 30px;
+    }
+    
+    .header__text {
+        font-size: 17px;
+        width: 300px;
+    }
+
+    .header__name {
+        font-size: 35px;
+    }
+
+    .questions__title {
+        margin: 40px 0 30px;
+    }
+
+    .questions__content {
+        width: 310px;
+        margin: 0 auto;
+    }
+
+    .questions__img img{
+        width: 400px;
+        height: 370px;
+    }
+    
+    .questions__image img{
+        width: 400px;
+        height: 370px;
+    }
+
+    .reviews__title  {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .reviews__text {
+        width: 270px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .reviews__name {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .reviews__img img {
+        margin-bottom: 15px;
+    }
+    
+    .consultation {
+        margin-top: 70px;
+        background-color: var(--light-blue);
+    }
+
+    .consultation__title {
+        padding: 50px 60px 0;
+    }
+
+    .consultation__text {
+        font-size: 16px;
+        width: 285px;
+    }
+
+    .consultation__name {
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .consultation__surname {
+        width: 250px;
+    }
+
+    .consultation__button {
+        width: 250px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding: 40px;
+    }
+
+    .footer__icon {
+        margin-left: 40px;
+    }
+
+    .footer__personal {
+        margin-bottom: 10px;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    .footer__contact {
+        margin-bottom: 30px;
+        text-align: center;
+        display: flex;
+        width: auto;
+    }
+
+    .footer__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__contact-number {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:380px)  {
+    .header__text {
+        width: 280px;
+    }
+    .innovation__title {
+        margin-bottom: 20px;
+    }
+    .innovation__text {
+        width: 260px;
+    }
+    .innovation__inner {
+        width: 300px;
+    }
+
+    .innovation__img {
+        width: 300px;
+    }
+
+    .questions__content {
+        width: 310px;
+    }
+
+    .questions__img img{
+        width: 310px;
+        height: 280px;
+    }
+    
+    .questions__image img{
+        width: 310px;
+        height: 280px;
+    }
+}
