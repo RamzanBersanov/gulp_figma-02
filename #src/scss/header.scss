@@ -9,6 +9,7 @@ body._lock {
     width: 100%;
     z-index: 10;
     background-color: #aad8f8;
+    
 }
 
 .logo {
@@ -24,6 +25,8 @@ body._lock {
 .header-number {
     margin-left: 40px;
     z-index: 5;
+    color: #fff;
+    font-weight: 500;
 }
 
 .header__container {
@@ -40,66 +43,7 @@ body._lock {
     display: none;
 }
 
-.header__content {
-    background-image: url('../images/header-bg.jpg');
-    max-width: none;
-    height: 500px;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
-    display: flex;
-    align-items: center;
-}
-
-.header__box {
-    margin-left: 100px;
-}
-
-.header__title {
-    font-size: 24px;
-    width: 310px;
-    color: #fff;
-    margin: 0 0 50px -40px;
-}
-
-.header__title span {
-    font-size: 36px;
-}
-
-.header__list {
-    position: relative;
-}
-
-.header__item {
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #fff;
-}
-
-.header__item::before {
-    position: absolute;
-    left: -40px;
-    transform: translateY(-4px);
-    content: '';
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-color: #00BFF3;
-    border-radius: 50%;
-}
-
-.header__item::after {
-    position: absolute;
-    left: -32px;
-    transform: translateY(-14px);
-    content: '';
-    display: block;
-    width: 9px;
-    height: 9px;
-    background-color: #fff;
-    border-radius: 50%;
-}
 
 .btn {
     display: flex;

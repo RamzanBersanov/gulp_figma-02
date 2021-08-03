@@ -159,6 +159,8 @@ body._lock {
 .header-number {
   margin-left: 40px;
   z-index: 5;
+  color: #fff;
+  font-weight: 500;
 }
 
 .header__container {
@@ -179,74 +181,6 @@ body._lock {
 
 .menu__icon {
   display: none;
-}
-
-.header__content {
-  background-image: url("../images/header-bg.jpg");
-  max-width: none;
-  height: 500px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header__box {
-  margin-left: 100px;
-}
-
-.header__title {
-  font-size: 24px;
-  width: 310px;
-  color: #fff;
-  margin: 0 0 50px -40px;
-}
-
-.header__title span {
-  font-size: 36px;
-}
-
-.header__list {
-  position: relative;
-}
-
-.header__item {
-  margin-bottom: 20px;
-  font-size: 18px;
-  color: #fff;
-}
-
-.header__item::before {
-  position: absolute;
-  left: -40px;
-  -webkit-transform: translateY(-4px);
-      -ms-transform: translateY(-4px);
-          transform: translateY(-4px);
-  content: '';
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-color: #00BFF3;
-  border-radius: 50%;
-}
-
-.header__item::after {
-  position: absolute;
-  left: -32px;
-  -webkit-transform: translateY(-14px);
-      -ms-transform: translateY(-14px);
-          transform: translateY(-14px);
-  content: '';
-  display: block;
-  width: 9px;
-  height: 9px;
-  background-color: #fff;
-  border-radius: 50%;
 }
 
 .btn {
@@ -355,9 +289,79 @@ body._touch .menu__list > li._active .menu__arrow {
           transform: rotate(-180deg);
 }
 
+.preview__content {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../images/header-bg.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/header-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/header-bg.jpg");
+  max-width: none;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preview__box {
+  margin-left: 60px;
+}
+
+.preview__title {
+  font-size: 24px;
+  width: 310px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.preview__title span {
+  font-size: 36px;
+}
+
+.preview__list {
+  position: relative;
+}
+
+.preview__item {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.preview__item::before {
+  position: absolute;
+  left: -40px;
+  -webkit-transform: translateY(-4px);
+      -ms-transform: translateY(-4px);
+          transform: translateY(-4px);
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #00BFF3;
+  border-radius: 50%;
+}
+
+.preview__item::after {
+  position: absolute;
+  left: -32px;
+  -webkit-transform: translateY(-14px);
+      -ms-transform: translateY(-14px);
+          transform: translateY(-14px);
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
 .info {
   font-family: 'Open Sans', sans-serif;
-  margin-top: 70px;
+  background-color: #00BFF3;
 }
 
 .info__content {
@@ -367,11 +371,17 @@ body._touch .menu__list > li._active .menu__arrow {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 20px;
 }
 
 .info__title {
-  width: 310px;
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 30px;
+  color: #fff;
   font-size: 36px;
   font-family: 'Roboto', sans-serif;
 }
@@ -382,12 +392,13 @@ body._touch .menu__list > li._active .menu__arrow {
   display: inline-block;
   position: relative;
   margin-bottom: 70px;
+  min-height: 330px;
 }
 
 .info__num {
   position: absolute;
-  bottom: 243px;
-  left: 243px;
+  bottom: 291px;
+  left: 246px;
 }
 
 .info__icon {
@@ -402,6 +413,12 @@ body._touch .menu__list > li._active .menu__arrow {
 
 .info__subtext {
   width: 230px;
+}
+
+.services {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 36px;
 }
 
 @media (min-width: 767px) {
