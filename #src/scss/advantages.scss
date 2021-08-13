@@ -1,0 +1,43 @@
+.advantages {
+    background-image: linear-gradient(rgba(0, 0, 0, .5)), url('../images/advantages-bg.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advantages__content {
+    display: flex;
+    // gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.advantages__item {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.advantages__title {
+    margin-top: 70px;
+    padding: 70px 0 50px 0;
+    text-align: center;
+    color: #00BFF3;
+    font-size: 36px;
+}
+
+.advantages__title span {
+    color: #fff;
+}
+
+.advantages__icon {
+    margin-bottom: 30px;
+}
+
+.advantages__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    width: 300px;
+}

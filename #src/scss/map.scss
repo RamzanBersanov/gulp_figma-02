@@ -1,0 +1,92 @@
+.map {
+    margin: 70px 0;
+    position: relative;
+}
+
+.map__content {
+    display: flex;
+    gap: 30px;
+}
+
+.map__box {
+    width: auto;
+    font-size: 18px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.map__place {
+    width: 550px;
+    border-radius: 15px;
+}
+
+.map__title {
+    padding: 50px 50px 32px 0;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.map__number {
+    padding: 0 0 30px 40px;
+    position: relative;
+}
+.map__number::before{
+    position: absolute;
+    content: '';
+    background: url('../images/map-smartphone.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0;
+    width: 18px;
+    height: 30px;
+    display: inline-block;
+}
+
+.map__adress {
+    padding: 0 0 30px 40px;
+    position: relative;
+}
+
+.map__adress::before {
+    position: absolute;
+    content: '';
+    background: url('../images/map-placeholder.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0;
+    width: 22px;
+    height: 30px;
+    display: inline-block;
+}
+
+.map__email {
+    position: relative;
+    padding: 0 0 30px 40px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.map__email::before {
+    position: absolute;
+    content: '';
+    background: url('../images/map-envelope.svg');
+    bottom: 0;
+    top: -5px;
+    left: -5px;
+    width: 30px;
+    height: 22px;
+    display: inline-block;
+}
+
+.map__text {
+    padding-bottom: 15px;
+    width: 160px;
+}
+.map__btn {
+    width: 150px;
+    margin-bottom: 50px;
+}

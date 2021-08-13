@@ -1,0 +1,42 @@
+.reviews__content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reviews__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.reviews__item {
+    width: 350px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.reviews__item::before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 30px;
+    background-color: #00BFF3;
+    z-index: -1;
+    display: block;
+}
+
+.reviews__img {
+    margin-bottom: 20px;
+}
+.reviews__name {
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+.reviews__feedback {
+    width: 280px;
+    margin: 0 auto;
+}

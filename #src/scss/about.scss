@@ -1,0 +1,25 @@
+.about {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 36px;
+    z-index: 110;
+}
+
+.about__content {
+    margin-bottom: 70px;
+}
+
+.about__title {
+    margin-bottom: 25px;
+}
+.about__text {
+    font-size: 14px;
+    width: 550px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+.about__images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}

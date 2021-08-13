@@ -1,0 +1,134 @@
+.questions {
+    margin: 70px 0;
+}
+
+.questions__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions__content {
+    margin-right: 30px;
+}
+
+.questions__title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.questions__item {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.questions__btn {
+    width: 260px;
+}
+
+.questions__info {
+    width: 400px;
+    background-color: #fff;
+    padding: 50px 50px 50px 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.questions__connection {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.questions__email {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+}
+.questions__email::before {
+    position: absolute;
+    content: '';
+    background: url('../images/questions-envelope.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.questions__consultation {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+    display: block;
+    position: relative;
+}
+.questions__consultation::before {
+    position: absolute;
+    content: '';
+    background: url('../images/questions-chat.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.questions__help {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 40px 0 20px;
+    font-size: 24px;
+}
+
+.questions__delivery {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 40px 0 20px;
+}
+.questions__descr {
+    padding: 0 0 5px 30px;
+    position: relative;
+}
+.questions__descr::before {
+    position: absolute;
+    content: '';
+    background: url('../images/questions-clock.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.questions__date {
+    position: relative;
+    padding: 0 0 5px 30px;
+}
+
+.questions__date::before {
+    position: absolute;
+    content: '';
+    background: url('../images/questions-clock.svg');
+    bottom: 0;
+    top: -5px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.questions__phone {
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.questions__calls {
+    margin-bottom: 5px;
+}
+
