@@ -13,7 +13,6 @@
         <div class="container">
             <div class="header__container">
                 <a href="#" class="logo"><img src="../images/logo.svg" alt=""></a>
-                <button class="city">Москва</button>
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
@@ -27,18 +26,23 @@
                                 <a data-goto=".page__section_2" href="#" class="menu__link">Тарифы</a>
                             </li>
                             <li>
-                                <a data-goto=".page__section_3" href="#" class="menu__link">Акция</a>
+                                <a data-goto=".page__section_3" href="#" class="menu__link">Скидки</a>
                             </li>
                             <li>
                                 <a data-goto=".page__section_4" href="#" class="menu__link">Водители</a>
                             </li>
-                            <li>
-                                <a data-goto=".page__section_5" href="#" class="menu__link">Контакты</a>
-                            </li>
                         </ul>
                     </nav>
                 </div>
-                <a class="header-number" href="tel:+78005562418">+7 (800) 556 24 18</a>
+                <div class="header__number">
+                    <img class="header__num-img" src="../images/telephone.svg" alt="">
+                    <a class="header__num" href="tel:+78005562418">+7 (800) 556 24 18</a>
+                </div>
+            </div>
+            <div class="header__social">
+                <a  class="header__social-link" href="#"><img src="../images/telegram.svg" alt=""></a>
+                <a  class="header__social-link" href="#"><img src="../images/instagram.svg" alt=""></a>
+                <a  class="header__social-link" href="#"><img src="../images/vk.svg" alt=""></a>
             </div>
         </div>
     </header>
@@ -48,7 +52,7 @@
             <div class="container">
                 <div class="preview__box">
                     <h2 class="preview__title">ВАШ ЛИЧНЫЙ ВОДИТЕЛЬ
-                        <span>НА ЦЕЛЫЙ ДЕНЬ</span></h2>
+                        <span class="--preview__change-fz">НА ЦЕЛЫЙ ДЕНЬ</span></h2>
                         <ul class="preview__list">
                             <li class="preview__item">Европейский уровень обслуживания</li>
                             <li class="preview__item">Выгодная стоимость услуг</li>
@@ -143,113 +147,3 @@
            </div>
     </div>
 </div>
-<div class="questions">
-    <div class="container">
-        <div class="questions__container">
-        <div class="questions__content">
-            <div class="questions__title">Частые вопросы</div>
-            <ul class="questions__list">
-                <li class="questions__item">Как найти и заказать трансфер?</li>
-                <li class="questions__item">Можно оплатить картой?</li>
-                <li class="questions__item">Заказывать такси лучше по телефону или онлайн?</li>
-                <li class="questions__item">Будет ли заявка обработана немедленно, если машина нужна срочно?</li>
-                <li class="questions__item">Разрешается ли курение в машинах?</li>
-            </ul>
-            <button class="questions__btn btn">Все вопросы</button>
-        </div>
-      <div class="questions__info">
-          <div class="questions__connection">По любым вопросам</div>
-              <a href="#" class="questions__email">support@OpenCab.com</a>
-              <a href="#" class="questions__consultation">Задать вопрос консультанту</a>
-          <div class="questions__help">Нужна помощь в оформлении заказа</div>
-          <div class="questions__time">
-              <p class="questions__date">С 8 до 22 (МСК), по будням</p>
-              <a class="questions__phone" href="#">8 800 551-75-77</a>
-              <p class="questions__calls">Для звонков из России, бесплатно</p>
-              <a class="questions__phone" href="#">+7 495 241-22-41</a>
-              <p class="questions__calls">Для звонков из-за рубежа, платно</p>
-          </div>
-      <div class="questions__delivery">Вопрос по существующему заказу</div>
-              <p class="questions__descr"> Круглосуточно, ежедневно</p>
-              <a class="questions__phone" href="#">8 800 200-32-92</a>
-              <p class="questions__calls">Для звонков из России, бесплатно</p>
-              <a class="questions__phone" href="#">+7 499 404-12-22</a>
-              <p class="questions__calls">Для звонков из-за рубежа, платно</p>
-      </div>
-    </div>
-</div>
-</div>
-<div class="special">
-    <div class="container">
-        <div class="special__content">
-            <div class="special__title">Специальное предложение</div>
-            <form class="special__form">
-                <div class="special__text">Только до конца февраля -</div>
-                <div class="special__subtext">Зарегистрируйся у нас и получи 5 км поездки БЕСПЛАТНО!</div>
-                <input class="special__name" type="text" placeholder="Имя">
-                <input class="special__number" type="number" placeholder="">
-                <button class="special__btn btn">Получить 5 КМ</button>
-                <div class="special__descr">Действует только на одну поездку</div>
-            </form>
-        </div>
-    </div>
-</div>
-<div class="map" id="map">
-    <div class="container">
-        <div class="map__content">
-            <div class="map__box">
-                <h3 class="map__title">Ближайший автопарк </h3>
-                <div class="map__number">+7(800) 344-22-12</div>
-                <div class="map__adress">Псков, Псковская обл., 180017</div>
-                <div class="map__email">support@OpenCab.com</div>
-                <p class="map__text">Приедем в течении 5 минут!</p>
-                <button class="map__btn btn">Заказать</button>
-            </div>
-            <div class="map__coordinates"><iframe class="map__place" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8502.81130577396!2d28.332723748428812!3d57.80639268071882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c019242cfa6fcd%3A0x824a40f92b654f88!2z0J_RgdC60L7Qsiwg0J_RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sIDE4MDAxNw!5e0!3m2!1sru!2sru!4v1628618456929!5m2!1sru!2sru" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe></div>
-        </div>
-    </div>
-</div>
-
-<div class="about">
-    <div class="container">
-        <div class="about__content">
-            <div class="about__title">О нашей компании</div>
-            <div class="about__text">за 7 лет работы  мы осуществили 34 000+ заказов и зарекомендовали себя как лучшая компания-перевозчик. Мы заботимся о том, чтобы каждый автомобиль был чистым и комфортным, а водители - бодрыми и внимательными. Говоря о водителях, стоит обратить внимание, что за рулем всегда опытные мужчины с большим стажем работы. </div>
-            <div class="about__images">
-                <img src="../images/about-img-1.jpg" alt="">
-                <img src="../images/about-img-2.jpg" alt="">
-                <img src="../images/about-img-3.jpg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="reviews">
-    <div class="container">
-        <div class="reviews__title">Отзывы наших клиентов</div>
-        <div class="reviews__content">
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
-            </div>
-        </div>
-      
-    </div>
-</div>
-
-
-</div>
-<script src="../js/script.min.js"></script>
-</body>
-</html>

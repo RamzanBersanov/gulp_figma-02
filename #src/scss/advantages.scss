@@ -1,6 +1,5 @@
 .advantages {
     background-image: linear-gradient(rgba(0, 0, 0, .5)), url('../images/advantages-bg.jpg');
-    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +7,9 @@
 
 .advantages__content {
     display: flex;
-    // gap: 50px;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 
 
