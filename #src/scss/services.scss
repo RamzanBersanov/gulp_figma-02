@@ -1,7 +1,11 @@
 .services {
-    margin-top: 70px;
     text-align: center;
     font-size: 36px;
+}
+
+.services__title {
+    margin-bottom: 30px;
+    font-size: var(--fz);
 }
 
 .services__content {
@@ -10,22 +14,23 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 0 15px;
 }
 
 .services__item {
     font-family: 'Open Sans', sans-serif;
+    margin: var(--lrg-marg-padd);
 }
 
 .services__text {
     font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 25px;
 }
 
 .services__subtext {
-    width: 320px;
+    width: 250px;
     font-size: 14px;
-    margin-bottom: 25px;
+    margin: 15px auto 25px;
 }
 
 .services__price {

@@ -1,14 +1,15 @@
-.special {
+.special__container {
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,1) 100%), url('../images/special-bg.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
+    margin-bottom: 70px;
 }
 
 .special__content {
-    padding-top: 90px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: flex-start;

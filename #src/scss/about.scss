@@ -1,5 +1,4 @@
 .about {
-    margin-top: 60px;
     text-align: center;
     font-size: 36px;
     z-index: 110;
@@ -11,6 +10,7 @@
 
 .about__title {
     margin-bottom: 25px;
+    font-size: var(--fz);
 }
 .about__text {
     font-size: 14px;
@@ -22,4 +22,5 @@
     display: flex;
     justify-content: center;
     gap: 25px;
+    flex-wrap: wrap;
 }

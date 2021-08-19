@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .questions__content {
@@ -13,7 +14,7 @@
 }
 
 .questions__title {
-    font-size: 36px;
+    font-size: var(--fz);
     margin-bottom: 40px;
 }
 

@@ -25,6 +25,16 @@
     .services__content {
         gap: 30px;
     }
+
+    .map__content {
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .map__place {
+        width: 470px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -144,7 +154,54 @@
 }
 
     .advantages__content {
+        gap: 20px;
+    }
+
+    .info__title {
+        padding: 50px 0 0;
+    }
+
+    :root {
+        --lrg-marg-padd: 0 0 50px;
+    }
+
+    .questions__container {
         flex-wrap: wrap;
+    }
+
+    .questions__content {
+        margin: 0 auto 35px;
+    }
+
+    .questions__list {
+        width: 400px;
+    }
+
+    .questions__info {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .special__title {
+        margin-right: 20px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .special__content {
+        flex-wrap: wrap;
+    }
+
+    .map__box {
+        padding-left: 30px;
+    }
+
+    .map__place {
+        width: 400px;
+    }
+
+    .about__text {
+        width: 450px;
     }
 }
 
@@ -172,20 +229,7 @@
     }
 
     .preview__item {
-        width: 200px;
-    }
-
-    .preview__item::after {
-        display: none;
-    }
-    
-    .preview__item::before {
-        position: relative;
-        left: 0;
-        border-radius: 0;
-        height: 3px;
-        width: 200px;
-        transform: translateY(40px);
+        width: 250px;
     }
 
     .header__num {
@@ -194,6 +238,56 @@
 
     .header__num-img {
         top: -9px;
+    }
+
+    .info__title {
+        padding: 30px 0 0;
+    }
+
+    :root {
+        --lrg-marg-padd: 0 0 30px;
+    }
+
+    .questions__list {
+        width: 320px;
+    }
+
+    .special__title::after {
+        width: 206px;
+        height: 40px;
+        top: 35px;
+        left: 90px;
+    }
+
+    .special__text {
+        font-size: 22px;
+    }
+
+    .special__subtext {
+        font-size: 16px;
+    }
+
+    .special__title {
+        font-size: var(--fz);
+        margin-bottom: 30px;
+    }
+
+    .special__name {
+        max-width: 220px;
+    }
+
+    .special__number {
+        max-width: 220px;
+        margin-bottom: 25px;
+    }
+
+    .map__place {
+        width: 360px;
+        height: 400px;
+    }
+
+    .about__text {
+        width: 370px;
     }
 }
 
@@ -204,5 +298,26 @@
 
     .preview__box {
         margin-left: 25px;
+    }
+
+    :root {
+        --fz: 24px;
+    }
+
+    .questions__list {
+        width: 300px;
+    }
+
+    .special__title::after {
+        top: -7px;
+        left: 65px;
+    }
+
+    .map__place {
+        width: 310px;
+    }
+
+    .about__text {
+        width: 280px;
     }
 }

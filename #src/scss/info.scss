@@ -3,21 +3,21 @@
     background-color: #00BFF3;
 }
 
-
 .info__content {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin: var(--lrg-marg-padd);
 }
 
 .info__title {
+    padding: 70px 0 0;
     text-align: center;
-    padding-top: 70px;
     margin-bottom: 30px;
     color: #fff;
-    font-size: 36px;
+    font-size: var(--fz);
     font-family: 'Roboto', sans-serif;
 }
 .info__item {
@@ -25,8 +25,12 @@
     padding: 90px 30px 30px 30px;
     display: inline-block;
     position: relative;
-    margin-bottom: 70px;
     min-height: 330px;
+    width: 310px;
+}
+
+.info__item:last-child {
+    margin: var(--lrg-marg-padd);
 }
 .info__num {
     position: absolute;

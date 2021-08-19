@@ -8,25 +8,29 @@
 .advantages__content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;    
 }
 
+.advantages__content:last-child {
+    margin: var(--lrg-marg-padd);
+}
 
-.advantages__item {
+.advantages__item{
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .advantages__title {
-    margin-top: 70px;
     padding: 70px 0 50px 0;
     text-align: center;
     color: #00BFF3;
-    font-size: 36px;
+    font-size: var(--fz);
 }
 
-.advantages__title span {
+.--advantages__change-clr {
     color: #fff;
 }
 
