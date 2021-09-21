@@ -311,7 +311,7 @@ body._touch .menu__list > li._active .menu__arrow {
 .header__social {
   position: absolute;
   right: 140px;
-  bottom: 280px;
+  bottom: 30%;
 }
 
 .header__social-link {
@@ -377,7 +377,6 @@ body._touch .menu__list > li._active .menu__arrow {
   top: -5px;
   left: 0;
   margin-right: 5px;
-  z-index: 20;
 }
 
 .info {
@@ -795,6 +794,93 @@ body._touch .menu__list > li._active .menu__arrow {
   opacity: 60%;
 }
 
+.autopark {
+  margin-bottom: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.autopark__title {
+  font-size: var(--fz);
+  text-align: center;
+}
+
+.autopark__container {
+  padding: 0 0 70px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-slider__image {
+  text-align: center;
+}
+
+.image-slider__image img {
+  max-width: 100%;
+}
+
+/* Стрелки */
+
+.reviews__container .swiper-button-prev::after,
+.reviews__container .swiper-button-next::after {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.reviews__container .swiper-pagination {
+  bottom: 0;
+}
+
+.reviews__container .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #00BFF3;
+  border-radius: 0;
+}
+
+.reviews__container .swiper-button-next::after,
+.reviews__container .swiper-button-prev::after {
+  color: #00bff3;
+}
+
+.autopark__item {
+  font-size: 18px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.autopark__img {
+  width: 260px;
+  height: 175px;
+}
+
+.autopark__name {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.autopark__class {
+  margin-bottom: 15px;
+}
+
+.autopark__equipment {
+  margin-bottom: 15px;
+}
+
+.autopark__btn {
+  width: 150px;
+}
+
 .map__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,14 +1019,39 @@ body._touch .menu__list > li._active .menu__arrow {
       flex-wrap: wrap;
 }
 
-.reviews__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 25px;
+.reviews__container {
+  padding: 30px 0 70px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-slider__image {
+  text-align: center;
+}
+
+.image-slider__image img {
+  max-width: 100%;
+}
+
+/* Стрелки */
+
+.reviews__container .swiper-button-prev::after,
+.reviews__container .swiper-button-next::after {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.reviews__container .swiper-pagination {
+  bottom: 0;
+}
+
+.reviews__container .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #00BFF3;
+  border-radius: 0;
 }
 
 .reviews__title {
@@ -951,24 +1062,27 @@ body._touch .menu__list > li._active .menu__arrow {
 
 .reviews__item {
   width: 350px;
-  position: relative;
   text-align: center;
   color: #fff;
 }
 
-.reviews__item::before {
-  content: '';
-  position: absolute;
-  width: 350px;
-  height: 200px;
-  top: 30px;
-  background-color: #00BFF3;
-  z-index: -1;
-  display: block;
-}
-
 .reviews__img {
   margin-bottom: 20px;
+}
+
+.reviews__img::before {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #00bff3;
+  z-index: -1;
+  display: block;
 }
 
 .reviews__name {
@@ -977,8 +1091,19 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .reviews__feedback {
-  width: 280px;
+  width: 65%;
   margin: 0 auto;
+}
+
+.reviews__container .swiper-button-next::after,
+.reviews__container .swiper-button-prev::after {
+  color: #00bff3;
+}
+
+.footer__title {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 120px;
 }
 
 @media (min-width: 767px) {

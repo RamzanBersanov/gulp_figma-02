@@ -1,0 +1,84 @@
+.autopark {
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.autopark__title{
+        font-size: var(--fz);
+        text-align: center;
+}
+
+// .autopark__container {
+//      display: flex;
+//      align-items: center;
+//      justify-content: center;
+//      flex-wrap: wrap;
+//      gap: 30px;
+// }
+
+.autopark__container {
+    padding: 0 0 70px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    max-width: 100%;
+}
+
+/* Стрелки */
+.reviews__container .swiper-button-prev::after,
+.reviews__container .swiper-button-next::after {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.reviews__container .swiper-pagination {
+    bottom: 0;
+}
+
+.reviews__container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #00BFF3;
+    border-radius: 0;
+}
+
+.reviews__container .swiper-button-next::after, .reviews__container .swiper-button-prev::after {
+    color: #00bff3;
+}
+
+
+
+.autopark__item {
+    font-size: 18px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autopark__img {
+    width: 260px;
+    height: 175px;
+}
+
+.autopark__name {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.autopark__class {
+        margin-bottom: 15px;
+}
+.autopark__equipment {
+        margin-bottom: 15px;
+}
+.autopark__btn {
+    width: 150px;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open cab</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <header class="header">
         <div class="container">
             <div class="header__container">
-                <a href="#" class="logo"><img src="../images/logo.svg" alt=""></a>
+                <a href="index.html" class="logo"><img src="../images/logo.svg" alt=""></a>
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
@@ -23,7 +24,7 @@
                                 <a data-goto=".page__section_1" href="#" class="menu__link">О нас</a>
                             </li>
                             <li>
-                                <a data-goto=".page__section_2" href="#" class="menu__link">Тарифы</a>
+                                <a href="rates.html" class="menu__link">Тарифы</a>
                             </li>
                             <li>
                                 <a data-goto=".page__section_3" href="#" class="menu__link">Скидки</a>
@@ -194,11 +195,61 @@
                     <div class="special__text">Только до конца февраля -</div>
                     <div class="special__subtext">Зарегистрируйся у нас и получи 5 км поездки БЕСПЛАТНО!</div>
                     <input class="special__name" type="text" placeholder="Имя">
-                    <input class="special__number" type="number" placeholder="">
+                    <input class="special__number" type="text" placeholder="">
                     <button class="special__btn btn">Получить 5 КМ</button>
                     <div class="special__descr">Действует только на одну поездку</div>
                 </form>
             </div>
+        </div>
+    </div>
+</div>
+<div class="autopark">
+    <div class="container">
+        <div class="autopark__title">Автопарк</div>
+        <div class="autopark__container swiper-container">
+            <div class="autopark__content swiper-wrapper">
+                <div class="autopark__item swiper-slide">
+                    <img class="autopark__img" src="../images/autopark-1.png" alt="Машина BMW">
+                    <div class="autopark__name">BMW X6 M</div>
+                    <div class="autopark__class">Luxe</div>
+                    <div class="autopark__equipment">Комплектация - максимальная</div>
+                    <button class="autopark__btn btn">Бронировать</button>
+                </div>
+                <div class="autopark__item swiper-slide">
+                    <img class="autopark__img" src="../images/autopark-2.png" alt="Машина">
+                    <div class="autopark__name">Toyota Vios</div>
+                    <div class="autopark__class">Medium cars</div>
+                    <div class="autopark__equipment">Комплектация - классическая</div>
+                    <button class="autopark__btn btn">Бронировать</button>
+                </div>
+                <div class="autopark__item swiper-slide">
+                    <img class="autopark__img" src="../images/autopark-3.png" alt="Машина">
+                    <div class="autopark__name">Toyota Land Cruiser</div>
+                    <div class="autopark__class">SPORTS UTILITY</div>
+                    <div class="autopark__equipment">Комплектация - максимальная</div>
+                    <button class="autopark__btn btn">Бронировать</button>
+                </div>
+                <div class="autopark__item swiper-slide">
+                    <img class="autopark__img" src="../images/autopark-4.png" alt="Машина">
+                    <div class="autopark__name">Shelby Mustang</div>
+                    <div class="autopark__class">EXECUTIVE CARS</div>
+                    <div class="autopark__equipment">Комплектация - Полная</div>
+                    <button class="autopark__btn btn">Бронировать</button>
+                </div>
+                <div class="autopark__item swiper-slide">
+                    <img class="autopark__img" src="../images/autopark-5.png" alt="Машина">
+                    <div class="autopark__name">Mercedes-Benz</div>
+                    <div class="autopark__class">S КЛАСС</div>
+                    <div class="autopark__equipment">максимальная</div>
+                    <button class="autopark__btn btn">Бронировать</button>
+                </div>
+            </div>
+            <!-- Добавляем стрелки управления -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- Добавляем пагинацию (шарики) -->
+            <div class="swiper-pagination"></div>
         </div>
     </div>
 </div>
@@ -232,32 +283,54 @@
         </div>
     </div>
 </div>
-<div class="reviews">
-    <div class="container">
-        <div class="reviews__title">Отзывы наших клиентов</div>
-        <div class="reviews__content">
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__img"><img src="../images/reviews-1.jpg" alt=""></div>
-                <div class="reviews__name">Виктор Кислый</div>
-                <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__title">Отзывы наших клиентов</div>
+            <div class="reviews__container swiper-container">
+                <div class="reviews__content swiper-wrapper">
+                    <div class="reviews__item swiper-slide" data-hash="slide-1">
+                        <div class="reviews__img"><img src="images/reviews-1.jpg" alt=""></div>
+                        <div class="reviews__name">Виктор Кислый</div>
+                        <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+                    </div>
+                    <div class="reviews__item  swiper-slide" data-hash="slide-2">
+                        <div class="reviews__img"><img src="images/reviews-2.jpg" alt=""></div>
+                        <div class="reviews__name">Виктор Кислый</div>
+                        <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+                    </div>
+                    <div class="reviews__item  swiper-slide" data-hash="slide-3">
+                        <div class="reviews__img"><img src="images/reviews-3.jpg" alt=""></div>
+                        <div class="reviews__name">Виктор Кислый</div>
+                        <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+                    </div>
+                    <div class="reviews__item  swiper-slide" data-hash="slide-3">
+                        <div class="reviews__img"><img src="images/reviews-1.jpg" alt=""></div>
+                        <div class="reviews__name">Виктор Кислый</div>
+                        <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+                    </div>
+                    <div class="reviews__item  swiper-slide" data-hash="slide-3">
+                        <div class="reviews__img"><img src="images/reviews-2.jpg" alt=""></div>
+                        <div class="reviews__name">Виктор Кислый</div>
+                        <div class="reviews__feedback">Очень хороший сервис! Всем рекомендую, кто ценит свою жизнь и любит внимание к себе.</div>
+                    </div>
+                </div>
+                <!-- Добавляем стрелки управления -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- Добавляем пагинацию (шарики) -->
+            <div class="swiper-pagination"></div>
             </div>
         </div>
-      
     </div>
-</div>
 
 
 </div>
+
+<script src="https://unpkg.com/imask"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="../js/script.min.js"></script>
+
 </body>
 </html>
