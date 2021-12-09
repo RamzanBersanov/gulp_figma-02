@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open cab</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <a href="index.html" class="logo"><img src="../images/logo.svg" alt=""></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li>
+                                <a data-goto=".page__section_1" href="#" class="menu__link">О нас</a>
+                            </li>
+                            <li>
+                                <a href="tariff.html" class="menu__link">Тарифы</a>
+                            </li>
+                            <li>
+                                <a data-goto=".page__section_3" href="#" class="menu__link">Скидки</a>
+                            </li>
+                            <li>
+                                <a href="drivers.html" class="menu__link">Водители</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__number">
+                    <img class="header__num-img" src="../images/telephone.svg" alt="">
+                    <a class="header__num" href="tel:+78005562418">+7 (800) 556 24 18</a>
+                </div>
+            </div>
+           
+        </div>
+    </header>
+  
+<section class="tariff">
+    <div class="container">
+        <div class="tariff__title">Тариф Бизнес в Москве</div>
+        <div class="tariff__limits">
+            <ul class="tariff__list">
+                <li class="tariff__item">В пределах города</li>
+                <li class="tariff__item">За пределами города</li>
+            </ul>
+            <div class="tariff__img">
+               <div class="tariff__car"><img class="tariff__car-img" src="images/tariff-1.png" alt="Mercedes"></div> 
+                <div class="tariff__limit">
+                    <div class="tariff__price">8000₽-5 часов/1500₽-час</div>
+                    <div class="tariff__name">Mercedes-Benz S-Класса</div>
+                    <div class="tariff__conditions">
+                        <div class="tariff__passengers">3</div>
+                        <div class="tariff__luggage">3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tariff__opportunities">
+            <div class="tariff__descr">
+                <div class="tariff__text">Минимальная стоимость поездки</div>
+                <div class="tariff__subtext">При подаче в пределах города,<span> 1000 ₽</span></div>
+                <div class="tariff__text">Отмена поездки</div>
+                <div class="tariff__subtext">Отмена в течение первых 5 мин после выезда автомобиля,<span> Бесплатно</span></div>
+                <div class="tariff__subtext">Отмена спустя 5 мин после выезда автомобиля,<span> 500 ₽</span></div>
+                <div class="tariff__subtext">Отмена после прибытия автомобиля,<span> 500 ₽ + 40 ₽/мин</span></div>
+                <div class="tariff__text">Ожидание и парковка</div>
+                <div class="tariff__subtext">Водитель бесплатно подождёт вас 5 минут. Каждая следующая минута ожидания оплачивается по тарифу. Платное время парковки и проезд по платным дорогам оплачиваются пассажиром дополнительно, соответствующие расходы будут добавлены к итоговой стоимости поездки. Для удобства пассажиров проезд по платным дорогам оплачивается по транспондеру</div>
+                <div class="tariff__subtext">Если при поездке в аэропорт вы укажете в комментарии к заказу номер рейса, мы встретим вас с табличкой в зоне прилёта. В таком случае стоимость платной парковки добавится к цене поездки
+                </div>
+            </div>
+            <div class="tariff__descr">
+                <div class="tariff__text">Трансферы</div>
+                <div class="tariff__subtext">Указаны фиксированные стоимости поездок без дополнительных остановок из или в черту города (условные границы города обозначены на странице города). При поездке с остановками стоимость рассчитывается по основному тарифу, но не может быть меньше стоимости трансфера без остановок</div>
+                <div class="tariff__text">Трансферы из города в аэропорт и обратно</div>
+                <div class="tariff__subtext">Оформите предзаказ и укажите номер рейса, чтобы водитель встретил вас в зоне прилёта с именной табличкой. В стоимость трансфера между городом и аэропортом включено бесплатное ожидание в течение 30 минут. Стоимость парковки и проезда по платным дорогам будет добавлена к итоговой цене поездки</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="discount"></section>
+<div class="container">
+    <div class="discount__container">
+        <div class="discount__images">
+            <img class="discount__car" src="../images/discount-car-1.png" alt="">
+            <div class="discount__percentages">50%</div>
+        </div>
+        <div class="discount__content">
+            <h3 class="discount__title">Космическая скидка</h3>
+            <h3 class="discount__text">Полностью автономная Tesla Model X</h3>
+            <h3 class="discount__subtext">Первая поездка на полностью автопилатируемой Тесле выйдет со скидкой -50%</h3>
+            <ul class="discount__list">
+                <li class="discount__item">Полностью экологический</li>
+                <li class="discount__item">Последнее слово техники</li>
+                <li class="discount__item">Комфортный салон</li>
+                <li class="discount__item">Гарантия S-class</li>
+            </ul>
+            <button class="discount__btn btn">Вызвать</button>
+        </div>
+    </div>
+</div>
+<div class="airport">
+    <div class="container">
+        <div class="airport__title">В чем преимущества трансфера из аэропорта</div>
+        <div class="airport__content">
+            <div class="airport__descr">
+                <div class="airport__text">Трансфер подается заранее</div>
+                <div class="airport__subtext">Перевозчик знает номер рейса, которым вы прилетаете в аэропорт — такси уже ждет на стоянке, а водитель встречает вас так близко к зоне прилета, насколько позволяют правила. То же самое — для трансферов от вокзалов и из отелей: встречающий будет на месте, по указанному адресу, ожидать с табличкой с именем клиента — таково правило сервиса. Можно вызвать местное такси в аэропорт дешево, но придется ждать машину, искать водителя, и времени уйдет на 10–15 минут больше, чем на трансфере.</div>
+            </div>
+            <div class="airport__descr">
+                <div class="airport__text">Если нужно, в авто будет детское кресло</div>
+                <div class="airport__subtext">При заказе в Кивитакси достаточно выбрать, сколько вам нужно детских кресел и для какого возраста. Водитель приедет на машине, укомплектованной для перевозки детей. Если на месте пытаться заказать такси в аэропорт и просить машину с одним-двумя детскими креслами, приходится ждать не меньше 15 минут, пока оператор ищет варианты, а может и не найти.</div>
+            </div>
+            <div class="airport__descr">
+                <div class="airport__text">Можно не разговаривать с водителем</div>
+                <div class="airport__subtext">Все о поездке известно заранее, поэтому, если вы не знаете язык или просто не в настроении, можете не говорить почти ни слова. Встреча с табличкой, на которой написано имя пассажира, поможет найтись на месте, а остальное зафиксировано в ваучере. С обычным местным таксистом, возможно, придется спорить о том, сколько стоит такси из аэропорта — на незнакомом языке можно договориться и в два раза дороже.</div>
+            </div>
+            <div class="airport__descr">
+                <div class="airport__text">Можно получить мини-экскурсию</div>
+                <div class="airport__subtext">Мы стараемся назначать на заказы русскоязычных водителей. Поэтому можно расспросить о стране и городе. Трансфер — в первую очередь туристическая услуга. Водители-профессионалы это понимают и стараются сделать так, чтобы турист начал отдыхать еще во время поездки.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="limousine">
+    <div class="container">
+        <div class="limousine__container">
+            <div class="limousine__content">
+                <h3 class="limousine__title">Ещё больше скидок!</h3>
+                    <div class="limousine__text">Лимузин HUMMER успей заказать по скидке - 25% </div>
+                    <ul class="limousine__list">
+                        <li class="limousine__item">10 пассажирских мест</li>
+                        <li class="limousine__item">Оснащен по последнему слову техники</li>
+                        <li class="limousine__item">Водиель и охранник</li>
+                        <li class="limousine__item">Салон от GUCCI</li>
+                    </ul>
+                    <button class="limousine__btn btn">Заказать</button>
+            </div>
+            <div class="limousine__content">
+                <div class="limousine__timer"></div>
+                <div class="limousine__image"  alt="Лимузин HUMMER"></div>
+            </div>
+        </div>
+        
+    </div>
+</section>

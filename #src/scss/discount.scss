@@ -1,0 +1,83 @@
+.discount__container {
+    background-color: #DBF7FF;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/discount-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.discount__images {
+    position: relative;
+}
+
+.discount__percentages {
+    font-weight: 800;
+    font-size: 200px;
+    position: absolute;
+    z-index: 1;
+    top: -90px;
+    left: 25px;
+    color: #00BFF3;
+}
+    
+.discount__car {
+    z-index: 5;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.2));
+    position: relative;
+}
+
+.discount__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px;
+    text-align: end;
+}
+
+.discount__title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    flex: none;
+}
+
+.discount__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.discount__subtext {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.discount__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.discount__item {
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-right: 25px;
+}
+
+.discount__item::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #00bff3;
+    top: 5px;
+    right: 0px;
+}
+
+.discount__item:last-child {
+    margin-bottom: 30px;
+}

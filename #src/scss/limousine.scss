@@ -1,0 +1,47 @@
+.limousine {
+    background-color: #DBF7FF;
+    font-family: 'Open Sans';
+}
+
+.limousine__container {
+    display: flex;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+}
+
+.limousine__title {
+    font-size: var(--fz);
+}
+
+.limousine__text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.limousine__image {
+    background-image: url('../images/limousine-1.jpg');
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 405px;
+}
+
+.limousine__item {
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.limousine__item::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #00bff3;
+    top: 5px;
+    left: 0px;
+}
+
+.limousine__btn {
+    margin-top: 40px;
+}

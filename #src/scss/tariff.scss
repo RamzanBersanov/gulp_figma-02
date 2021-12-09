@@ -1,0 +1,126 @@
+.tariff {
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.tariff__title {
+    font-size: var(--fz);
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.tariff__limits {
+    margin-bottom: 40px;
+}
+
+.tariff__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.tariff__item:first-child {
+    width: 410px;
+    background-color: #00BFF3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.tariff__item:last-child {
+    width: 410px;
+    background-color: #ffffff;
+    height: 50px;
+    border: 1px solid #00BFF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tariff__img {
+    display: flex;
+    justify-content: center;
+}
+
+.tariff__car {
+    margin-right: 80px;
+}
+
+.tariff__price {
+    border: 1px solid #00bff3;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.tariff__name {
+    margin-bottom: 20px;
+}
+
+.tariff__conditions {
+    display: flex;
+}
+
+.tariff__passengers {
+    padding-left: 20px;
+    position: relative;
+}
+
+.tariff__passengers::before {
+    position: absolute;
+    content: '';
+    background: url('../images/tariff-icon-1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    top: -9px;
+    left: -5px;
+    width: 18px;
+    height: 30px;
+    display: inline-block;
+}
+
+.tariff__luggage {
+    padding-left: 38px;
+    position: relative;
+}
+
+.tariff__luggage::before {
+    position: absolute;
+    content: '';
+    background: url('../images/tariff-icon-2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    top: -9px;
+    left: 15px;
+    width: 18px;
+    height: 30px;
+    display: inline-block;
+}
+
+.tariff__opportunities {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tariff__text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.tariff__subtext{
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.tariff__subtext span {
+    font-weight: 500;
+}

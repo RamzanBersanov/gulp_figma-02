@@ -35,6 +35,49 @@
     .map__place {
         width: 470px;
     }
+
+    .airport__title {
+        font-size: var(--fz);
+    }
+
+    .discount__car {
+        margin-bottom: -90px;
+    }
+
+    .discount__percentages {
+        top: -35px;
+        left: 330px;
+        font-size: 120px;
+    }
+
+    .discount__container {
+        background-image: none;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    
+    .discount__content {
+        padding-right: 0;
+    }
+
+    .limousine__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px 0;
+        margin-bottom: 60px;
+        align-items: center;
+    }
+
+    .limousine__image {
+        margin-bottom: 40px;
+    }
+
+    .limousine__content{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
@@ -203,6 +246,59 @@
     .about__text {
         width: 450px;
     }
+
+    .tariff__list {
+        font-size: 18px;
+    }
+
+    .tariff__img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tariff__car {
+        margin-right: 0;
+    }
+    
+    .tariff__price {
+        margin-top: 30px;
+    }
+
+    .discount__container {
+        height: 90vh;
+    }
+
+    .discount__car {
+        width: 410px;
+    }
+    
+    .discount__percentages {
+        top: -15px;
+        left: 266px;
+        font-size: 80px;
+    }
+
+    .discount__content {
+        padding-right: 30px;
+    }
+
+    .discount__subtext {
+        font-size: 16px;
+        max-width: 410px;
+    }
+   
+    .discount__text {
+        font-size: 22px;
+    }
+
+    .discount__item {
+        font-size: 22px;
+    }
+
+    .limousine__image {
+        width: 420px;
+    }
+
 }
 
 @media screen and (max-width:480px) {
@@ -289,6 +385,44 @@
     .about__text {
         width: 370px;
     }
+
+    .tariff__title {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .tariff__list {
+        flex-direction: column;
+    }
+
+    .tariff__item:first-child {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .tariff__item:last-child {
+        width: 300px;
+    }
+
+    .tariff__car-img {
+        width: 300px;
+    }
+
+    .tariff__subtext {
+        width: auto;
+    }
+
+    .airport__title {
+        margin-bottom: 35px;
+        font-size: 21px;
+    }
+
+    .limousine__image {
+        width: 300px;
+        height: 350px;
+        background-position: top left;
+    }
+
 }
 
 @media screen and (max-width:380px)  {
@@ -320,4 +454,27 @@
     .about__text {
         width: 280px;
     }
+
+    .discount__car {
+        width: 295px;
+    }
+
+    .discount__percentages {
+        top: -30px;
+        left: 170px;
+        font-size: 60px;
+    }
+
+    .discount__title {
+        font-size: 25px;
+    }
+
+    .discount__subtext {
+        max-width: 240px;
+    }
+
+    .discount__content {
+        padding-right: 15px;
+    }
+    
 }

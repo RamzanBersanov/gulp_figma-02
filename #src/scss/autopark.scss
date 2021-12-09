@@ -1,11 +1,13 @@
 .autopark {
     margin-bottom: 70px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #DBF7FF;
 }
 
 .autopark__title{
-        font-size: var(--fz);
-        text-align: center;
+    padding-top: 70px;
+    font-size: var(--fz);
+    text-align: center;
 }
 
 // .autopark__container {
@@ -53,8 +55,6 @@
 .reviews__container .swiper-button-next::after, .reviews__container .swiper-button-prev::after {
     color: #00bff3;
 }
-
-
 
 .autopark__item {
     font-size: 18px;

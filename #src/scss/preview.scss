@@ -48,3 +48,17 @@
     left: 0;
     margin-right: 5px;
 }
+
+.preview__social {
+    position: absolute;
+    right: 140px;
+    bottom: 30%;
+}
+
+.preview__social-link {
+    margin-right: 30px;
+}
+
+.preview__social-link:last-child {
+    margin-right: 0;
+}

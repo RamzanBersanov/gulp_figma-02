@@ -1,0 +1,97 @@
+.drivers__title {
+    font-size: 36px;
+    margin: 70px 0 15px 0;
+}
+.drivers__subtitle {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.drivers__container {
+    text-align: center;
+}
+
+.drivers__cities {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.driver__item {
+    padding: 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #00BFF3;
+    cursor: pointer;
+}
+
+.driver__item:last-child {
+    margin-right: 0;
+}
+
+.drivers__driver {
+    display: flex;
+}
+
+.drivers__photo {
+    margin-bottom: 35px;
+}
+
+.drivers__driver {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.drivers__summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drivers__list {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.drivers__name {
+    margin-right: 40px;
+}
+
+.drivers__rating {
+    position: relative;
+    padding-right: 15px;
+    padding: 8px 20px;
+    border: 2px solid #00BFF3;
+    border-radius: 15px;
+}
+
+.drivers__rating::after {
+    content: '';
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    background-image: url('../images/drivers-icon-1.svg');
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 11px;
+}
+
+.drivers__car {
+    margin-bottom: 15px;
+}
+.drivers__orders {
+    display: flex;
+    margin-bottom: 70px;
+}
+.drivers__unsuccessful {
+    margin-right: 30px;
+    padding: 8px 14px;
+    border: 2px solid #00BFF3;
+    border-radius: 15px;
+}
+.drivers__successful {
+    padding: 8px 14px;
+    border: 2px solid #00BFF3;
+    border-radius: 15px;
+}

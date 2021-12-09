@@ -131,17 +131,3 @@ body._touch .menu__arrow{
 body._touch .menu__list > li._active .menu__arrow {
     transform: rotate(-180deg);
 }
-
-.header__social {
-    position: absolute;
-    right: 140px;
-    bottom: 30%;
-}
-
-.header__social-link {
-    margin-right: 30px;
-}
-
-.header__social-link:last-child {
-    margin-right: 0;
-}

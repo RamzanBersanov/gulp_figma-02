@@ -20,7 +20,7 @@ html,body{
 	font-size: 14px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
-    background: #DBF7FF;
+    background: #fff;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -98,10 +98,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     --fz: 32px;
 }
 
-:root {
-    --lrg-marg-padd: 0 0 70px;
-}
-
 @import 'header.scss';
 @import 'preview.scss';
 @import 'info.scss';
@@ -114,4 +110,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @import 'about.scss';
 @import 'reviews.scss';
 @import 'footer.scss';
+@import 'tariff.scss';
+@import 'discount.scss';
+@import 'airport.scss';
+@import 'limousine.scss';
+@import 'drivers.scss';
+@import 'requirements.scss';
+@import 'mercedes.scss';
+@import 'registration.scss';
 @import 'media.scss';
